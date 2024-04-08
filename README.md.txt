@@ -1,0 +1,1 @@
+On window, you need to install pytesseract using an installer found here: https://github.com/UB-Mannheim/tesseract/wiki

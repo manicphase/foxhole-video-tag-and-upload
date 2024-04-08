@@ -1,0 +1,109 @@
+[
+    {
+        "name": "make_edge_mask",
+        "defaults": {
+            "threshold1": 50,
+            "threshold2": 200
+        },
+        "values": {
+            "threshold1": 42,
+            "threshold2": 147
+        }
+    },
+    {
+        "name": "blur_mask",
+        "defaults": {
+            "kernal_height": 30,
+            "kernal_width": 30
+        },
+        "values": {
+            "kernal_height": 30,
+            "kernal_width": 3
+        }
+    },
+    {
+        "name": "threshold_mask_from_mask",
+        "defaults": {
+            "lower": 10,
+            "upper": 255
+        },
+        "values": {
+            "lower": 11,
+            "upper": 240
+        }
+    },
+    {
+        "name": "apply_mask"
+    },
+    {
+        "name": "resize_image_and_mask",
+        "defaults": {
+            "scale": 100,
+            "aspect_ratio": 100,
+            "scale_method": 1
+        },
+        "values": {
+            "scale": 108,
+            "aspect_ratio": 100,
+            "scale_method": 1
+        }
+    },
+    {
+        "name": "make_mask_from_colour",
+        "defaults": {
+            "blue_low": 0,
+            "blue_high": 255,
+            "green_low": 0,
+            "green_high": 255,
+            "red_low": 0,
+            "red_high": 255
+        },
+        "values": {
+            "blue_low": 2,
+            "blue_high": 245,
+            "green_low": 0,
+            "green_high": 239,
+            "red_low": 10,
+            "red_high": 247
+        }
+    },
+    {
+        "name": "apply_mask"
+    },
+    {
+        "name": "invert_image_colours"
+    },
+    {
+        "name": "adjust_red",
+        "defaults": {
+            "brightness": 128,
+            "contrast": 128
+        },
+        "values": {
+            "brightness": 149,
+            "contrast": 172
+        }
+    },
+    {
+        "name": "adjust_green",
+        "defaults": {
+            "brightness": 128,
+            "contrast": 128
+        },
+        "values": {
+            "brightness": 4,
+            "contrast": 255
+        }
+    },
+    {
+        "name": "adjust_blue",
+        "defaults": {
+            "brightness": 128,
+            "contrast": 128
+        },
+        "values": {
+            "brightness": 133,
+            "contrast": 0
+        }
+    }
+]

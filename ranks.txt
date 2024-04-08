@@ -1,0 +1,18 @@
+Pte
+LCpl
+Cpl
+Sgt
+SSgt
+WO2
+WO1
+OCdt
+2Lt
+Lt
+Capt
+Maj
+Lt Col
+Col
+Maj Gen
+Lt Gen
+Gen
+FM

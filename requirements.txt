@@ -1,0 +1,4 @@
+opencv-python==4.9.0.80
+pytesseract==0.3.10
+requests
+Levenshtein==0.25.0
